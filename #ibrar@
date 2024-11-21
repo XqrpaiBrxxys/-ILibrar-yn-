@@ -3666,77 +3666,9 @@ function HorizonBarLibrary:CreateWindow(WindowProperties)
             SortOrder = Enum.SortOrder.LayoutOrder
         })
 
-        -- Execution Stats
-        local ExecutionStats = Create("Frame", {
-            Parent = RobberyStatsContainer,
-            Name = "ExecutionStats",
-            AnchorPoint = Vector2.new(0, 0),
-            AutomaticSize = Enum.AutomaticSize.None,
-            BackgroundColor3 = ColorPalette.White,
-            BackgroundTransparency = 0.9,
-            BorderColor3 = ColorPalette.Black,
-            BorderSizePixel = 0,
-            Position = UDim2.new(0, 0, 0, 0),
-            Rotation = 0,
-            Size = UDim2.new(0, 120, 1, 0),
-            Visible = true,
-            ClipsDescendants = false
-        })
+    
 
-        -- Execution Stats UICorner
-        local ExecutionStats_UICorner = Create("UICorner", {
-            Parent = ExecutionStats,
-            CornerRadius = UDim.new(0, 6)
-        })
-
-        -- Execution Stats Icon
-        local ExecutionStatsIcon = Create("ImageLabel", {
-            Parent = ExecutionStats,
-            Name = "Icon",
-            AnchorPoint = Vector2.new(0, 0),
-            AutomaticSize = Enum.AutomaticSize.None,
-            BackgroundColor3 = ColorPalette.White,
-            BackgroundTransparency = 1,
-            BorderColor3 = ColorPalette.Black,
-            BorderSizePixel = 0,
-            Position = UDim2.new(0, 9, 0, 9),
-            Rotation = 0,
-            Size = UDim2.new(0, 22, 0, 22),
-            Visible = true,
-            ClipsDescendants = false,
-            Image = Storage.Icons.Execution,
-            ImageColor3 = ColorPalette.White,
-            ImageTransparency = 0,
-            ScaleType = Enum.ScaleType.Stretch
-        })
-
-        -- Execution Stats Text
-        local ExecutionStatsText = Create("TextLabel", {
-            Parent = ExecutionStats,
-            Name = "Text",
-            AnchorPoint = Vector2.new(0, 0),
-            AutomaticSize = Enum.AutomaticSize.None,
-            BackgroundColor3 = ColorPalette.White,
-            BackgroundTransparency = 1,
-            BorderColor3 = ColorPalette.Black,
-            BorderSizePixel = 0,
-            Position = UDim2.new(0, 40, 0, 0),
-            Rotation = 0,
-            Size = UDim2.new(1, -40, 1, 0),
-            Visible = true,
-            ClipsDescendants = false,
-            FontFace = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Bold),
-            Text = "0000",
-            TextColor3 = ColorPalette.White,
-            TextSize = 16,
-            TextStrokeColor3 = ColorPalette.Black,
-            TextStrokeTransparency = 1,
-            TextTransparency = 0,
-            TextTruncate = Enum.TextTruncate.None,
-            TextWrapped = false,
-            TextXAlignment = Enum.TextXAlignment.Left,
-            TextYAlignment = Enum.TextYAlignment.Center
-        })
+    
 
      
     
