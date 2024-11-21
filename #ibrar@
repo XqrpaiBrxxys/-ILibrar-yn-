@@ -38,8 +38,7 @@ local Storage = {
         Time = "rbxassetid://14358459327",
         Ping = "rbxassetid://14334409497",
         Version = "rbxassetid://14334419052",
-        Execution = "rbxassetid://14358439491",
-        
+        Execution = "rbxassetid://14358439491",  
     },
     Images = {}
 }
